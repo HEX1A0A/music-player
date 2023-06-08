@@ -5,11 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-/**
- * @Author:Gary
- * @ProjectName:music_player_test
- * @Date: 2022/10/25 17:32
- **/
+
 @Configuration
 public class ResourceConfig implements WebMvcConfigurer {
 

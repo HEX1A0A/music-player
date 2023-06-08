@@ -20,11 +20,7 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 import java.time.Duration;
 
-/**
- * @Author:Gary
- * @ProjectName:music_player
- * @Date: 2022/10/22 11:54
- **/
+
 @EnableCaching //开启缓存注解
 @Configuration
 public class RedisConfig extends CachingConfigurerSupport {

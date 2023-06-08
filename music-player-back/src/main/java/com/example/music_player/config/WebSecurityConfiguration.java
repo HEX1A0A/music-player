@@ -21,11 +21,7 @@ import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.security.web.access.AccessDeniedHandler;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-/**
- * @Author:Gary
- * @ProjectName:music_player
- * @Date: 2022/10/22 16:36
- **/
+
 @Configuration
 @EnableWebSecurity
 @EnableGlobalAuthentication()

@@ -3,13 +3,15 @@ import store from "../store/index"
 
 let baseURL = ""
 
-if(process.env.NODE_ENV == "development"){
+//if(process.env.NODE_ENV == "development"){
     // baseURL = 'https://3fe9ba4c-6501-4859-bd86-7210e83f9802.mock.pstmn.io/'
-    baseURL = 'http://vite.fullcomb.top'
-} else {
-    baseURL = 'http://localhost:9999'
-}
+//    baseURL = 'http://vite.fullcomb.top'
+//    baseURL = 'http://192.168.67.130:9999'
+//} else {
+//    baseURL = 'http://192.168.67.130:9999'
+//}
 
+baseURL='http://192.168.67.130:9999'
 store.state.baseURL = baseURL
 
 const service = axios.create({

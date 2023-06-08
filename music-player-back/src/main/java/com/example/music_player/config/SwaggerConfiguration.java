@@ -10,11 +10,7 @@ import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
-/**
- * @Author:Gary
- * @ProjectName:music_player_test
- * @Date: 2022/10/26 17:53
- **/
+
 @EnableOpenApi
 @Configuration
 public class SwaggerConfiguration {

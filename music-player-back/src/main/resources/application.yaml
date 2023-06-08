@@ -8,18 +8,22 @@ mybatis-plus:
       id-type: auto
 
 spring:
+
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
     hiddenmethod:
       filter:
         enabled: true #开启页面表单的Rest功能
+
   datasource:
     url: jdbc:mysql://localhost:3306/music_player
     driver-class-name: com.mysql.cj.jdbc.Driver
-#    username: abel-chai
     username: root
     password: 123456
+
+  resources:
+    static-locations: file:home/hex/resources/
 
   redis:
     # redis数据库索引(默认为0)，我们使用索引为3的数据库，避免和其他数据库冲突

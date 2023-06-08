@@ -2,11 +2,7 @@ package com.example.music_player.common;
 
 import lombok.Data;
 
-/**
- * @Author:Gary
- * @ProjectName:music_player
- * @Date: 2022/10/22 17:58
- **/
+
 @Data
 public class Response {
 

@@ -13,11 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.security.PermitAll;
 
-/**
- * @Author:Gary
- * @ProjectName:music_player
- * @Date: 2022/10/22 12:11
- **/
+
 @RestController
 @RequestMapping("/banner")
 @CrossOrigin
@@ -26,12 +22,7 @@ public class BannerController {
     @Autowired
     private BannerService bannerService;
 
-    /**
-     * @Author Gary
-     * @Description 获取轮播图信息
-     * @Date 20:34 2022/10/25
-     * @Version 1.0
-     */
+    
     @GetMapping("/")
     @ApiOperation("获取轮播图信息")
     public Response getAllBanner() {
