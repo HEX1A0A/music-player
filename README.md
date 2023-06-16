@@ -1,5 +1,4 @@
 # music-player
-大三上软件工程项目 - 在线音乐播放器
 
 ## 项目介绍
  - 基于springboot + vue的前后端分离项目;主要分为后端以及前端用户界面和后台管理界面;使用git和github完成版本控制
@@ -33,7 +32,7 @@ JDK：jdk 8 \
 mysql: mysql 8 \
 redis: 4.0.9 $\quad$ 基于ubuntu服务器环境 \
 node: v12.20.0 \
-IDE: IntelliJ IDEA2022.1 $\quad$ vscode $\quad$ Hyper-V $\quad$ Vmware $\quad$ putty
+IDE: IntelliJ IDEA2022.1 $\quad$ vscode $\quad$ Vmware \
 
 ## 使用说明
 1. 使用git下载项目到本地
@@ -51,7 +50,7 @@ git clone https://github.com/abel-chai/music-player.git
  - 运行前台用户页面
  ```
  npm i //安装依赖
- npm run dev //运行服务器
+ npm run serve //运行服务器
  ```
  - 运行后台管理页面
  ```
